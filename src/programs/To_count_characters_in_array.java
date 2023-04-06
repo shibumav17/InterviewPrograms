@@ -1,0 +1,17 @@
+package programs;
+
+public class To_count_characters_in_array {
+    public static void main(String[] args) {
+
+        String s = "My name is Harshit";
+        System.out.println("Length of the String :" +s.length() );
+        int count = 0;
+        for (int i=0; i<s.length(); i++ ){
+            if (s.charAt(i)!=' '){
+                count++;
+            }
+        }
+        System.out.println("Characters in the String : " +count);
+    }
+
+}
